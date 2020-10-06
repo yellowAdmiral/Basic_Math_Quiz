@@ -1,0 +1,42 @@
+<!-- NOT A GAME -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>NOT_DOTA</title>
+    </head>
+    <body onload="next()">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <center>
+        <div id="div1">
+            <h4 id="Score">Score : </h4>
+            <h4 id="Streak"></h4>
+        </div>
+        <div class="container-fluid">
+        <h1 id="lol"><b>NOT KAHOOT!</b></h1>
+        <div class="progress">
+        <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h3 id="ques"></h3>
+        <br>
+        <input id="ANS" type="text" placeholder="ANSWER ???">
+        <br>
+        <input type="button" class="btn btn-outline-success" value="Submit" onclick="check()">
+        <p id="bruh">YOUR ANSWER WILL SHOW  HERE</p>
+        <br>
+        <input id="next" class="btn btn-dark" type="button" value="Skip Question" onclick="next()">
+        <br>
+        <input id="end" class="btn btn-dark" type="button" value="End session" onclick="sure()">
+        </div>
+        <br>
+        <p id="resss"></p>
+        <img id="result" src="BiodegradableAdoredCoypu-max-1mb.gif" height="200px" width="400px">
+        </center>
+
+
+    <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
